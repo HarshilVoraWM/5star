@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.googleapis.com",
+  "@type": "ARArtifact",
+  "arTarget": {
+    "@type": "ARImageTarget",
+    "name" : "TARGET_TITLE",
+    "image": "C:\Users\harshil.vora\Desktop\5Star\5Star_Bhuvan_Bam.png"
+  },
+  "arPlacement": {
+    "@type": "ARPlanarReplacement",
+    "scaleMode": "ScaleModeFill"
+  },
+  "arContent": {
+    // The value of arContent.@type must be VideoObject for immersive content.
+    "@type": "VideoObject",
+
+    // Add a headline to be displayed with the immersive content.
+    "name": "HEADLINE",
+
+    // Add an absolute link to the video content to serve as the immersive content.
+    "contentUrl": "REPLACING_VIDEO_URL",
+
+    // Optional: Add an image to display as the hero image.
+    "image": "C:\Users\harshil.vora\Desktop\5Star\5Star_Bhuvan_Bam.png",
+
+    // Add an absolute link to the page that opens when the end user taps the immersive content.
+    "url": "URL",
+
+    "publisher": {
+
+      // The value of publisher.@type must be set to Organization.
+      "@type": "Organization",
+
+      // Add the name of the content publisher.
+      "name": "PUBLISHER",
+
+      // Add an absolute link to the publisher logo.
+      "logo": "PUBLISHER_ICON_URL"
+    }
+  }
+}
+</script>
